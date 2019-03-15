@@ -5,7 +5,7 @@ print(cv2.__version__)
 
 folder_path = "img/"
 fileName = "sample.mp4"
-# os.makedirs(folder_path)
+os.makedirs(folder_path)
 
 vc = cv2.VideoCapture(fileName)
 c = 0
